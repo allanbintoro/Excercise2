@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator Using Javascript</title>
+    <link rel="stylesheet" href="stylebox.css">
+</head>
+<body>
+<div id="calculator">
+    <form>
+        <input type="text" id='display'/>
+        <input type="button" id="keysC" onclick="addToScreen('c')" value="C"/>
+        <input type="button" value="<" id="keysC" onclick="backSpace()"/>
+        <input type="button" id="keysC" onclick="addToScreen('%')" value="%"/>
+        <input type="button" id="keysC" onclick="addToScreen('+')" value="+"/>
+
+        <input type="button" id="keys" onclick="addToScreen('9')" value="9"/>
+        <input type="button" id="keys" onclick="addToScreen('8')" value="8"/>
+        <input type="button" id="keys" onclick="addToScreen('7')" value="7"/>
+        <input type="button" id="keysC" onclick="addToScreen('-')" value="-"/>
+
+        <input type="button" id="keys" onclick="addToScreen('6')" value="6"/>
+        <input type="button" id="keys" onclick="addToScreen('5')" value="5"/>
+        <input type="button" id="keys" onclick="addToScreen('4')" value="4"/>
+        <input type="button" id="keysC" onclick="addToScreen('*')" value="x"/>
+
+        <input type="button" id="keys" onclick="addToScreen('3')" value="3"/>
+        <input type="button" id="keys" onclick="addToScreen('2')" value="2"/>
+        <input type="button" id="keys" onclick="addToScreen('1')" value="1"/>
+        <input type="button" id="keysC" onclick="addToScreen('/')" value="/"/>
+
+        <input type="button" id="keys" onclick="addToScreen('0')" value="0"/>
+        <input type="button" id="keys" onclick="addToScreen('.')" value="."/>
+        <input type="button" value="=" id="equal" onclick="answer()"/>
+    </form>
+</div>
+</body>
+
+<script src="cal.js"></script>
+</html>
